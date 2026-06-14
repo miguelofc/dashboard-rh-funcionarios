@@ -1,0 +1,61 @@
+/* Painel RH - estilo corporativo */
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.rh-table {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.rh-table th {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #605E5C;
+    font-weight: 600;
+    border-bottom: 2px solid #118DFF !important;
+    border-top: none !important;
+    padding: 6px 8px;
+}
+
+.rh-table td {
+    padding: 5px 8px;
+    border-top: 1px solid #E1DFDD;
+    color: #252423;
+}
+
+.rh-table tbody tr:hover {
+    background-color: #F3F2F1;
+}
+
+.rh-dd .Select-control,
+.rh-dd .select__control {
+    border-radius: 2px !important;
+    border-color: #E1DFDD !important;
+    min-height: 32px !important;
+}
+
+.rh-dd .select__placeholder,
+.rh-dd .select__single-value,
+.rh-dd .select__multi-value__label {
+    font-size: 12px;
+}
+
+.rh-radio input[type="radio"] {
+    margin-right: 4px;
+    accent-color: #118DFF;
+}
+
+/* RangeSlider accent */
+.rc-slider-track {
+    background-color: #118DFF !important;
+}
+.rc-slider-handle {
+    border-color: #118DFF !important;
+}
+.rc-slider-handle:active {
+    box-shadow: 0 0 4px #118DFF !important;
+}
